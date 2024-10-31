@@ -6,45 +6,21 @@
     <title>Coopafrut</title>
     <meta name="author" content="Estefania Ortiz Ramirez">
     <meta name="description" content="COOPAFRUT of Tambogrande Piura-Perú, here it's the home page.">
-    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/index.css">
     <link rel="icon" href="images/cfruticon.ico">
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/join.js" defer></script>
     <meta property="og:title" content="Coopafrut">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://Estefania-2023.github.io/wdd231/project/images/coopafrutlogo.webp">
-    <meta property="og:url" content="https://Estefania-2023.github.io/wdd231/project/home.html">
+    <meta property="og:url" content="https://estefania-2023.github.io/Coopafrut/index.html">
 </head>
 <body>
     <header>
-        <img src="images/aboutme1.jpeg" alt="profile" width="100" height="100">
-        <h1>Estefania Ortiz Ramirez</h1>
-        <div id="menu"></div>
+        <img src="images/coopafrutlogo.webp" alt="profile">
+        <h1>Cooperativa Agraria de Frutas Tropicales del Valle San Lorenzo (COOPAFRUT)</h1>
     </header>
-    <nav>
-        <ul class="menu-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="chamber/index.html">Chamber</a></li>
-            <li><a href="#">GitHub Profile</a></li>
-            <li><a href="https://www.linkedin.com/in/estefan%C3%ADa-ort%C3%ADz-b23721251/" target="_blank">LinkedIn</a></li>
-        </ul>          
-    </nav>
     <main>
-        <section id="course-card" class="card">
-            <h2 class="card-heading">Course Work</h2>
-            <ul class="card-content">
-                <li><a href="chamber/directory.html">Chamber</a></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </section>
-        <section id="place-card" class="card">
-            <h2 class="card-heading">Lima, Peru</h2>
-            <figure class="card-content">
-                <img src="images/2017_Lima_-_Palacio_de_Gobierno_del_Perú.jpg" alt="Palacio de Gobierno" width="50" height="95">
-                <figcaption>Palacio de Gobierno</figcaption>
-            </figure>
-        </section>
         <section id="certificate-card" class="card">
             <h2 class="card-heading">Web and Computer Programming Certificate</h2>
             <div class="card-content">
@@ -61,6 +37,47 @@
                 <span id="total-completed"></span>          
             </div>
         </section>
+        
+
+        <form method="get" action="thankyou.html" class="form1">
+            <fieldset>
+                <legend>Cuentanos tu experiencia</legend>
+                <label for="fname">Nombre*<input type="text" name="fname" id="fname" autocomplete="given-name" required></label>
+                <label for="lname">Apellido*<input type="text" name="lname" id="lname" autocomplete="family-name" required></label>
+                <label for="organizationTitle">Organizational Title<input type="text" id="organizationTitle" name="organizationTitle" autocomplete="organization-title" pattern="[a-zA-Z\- ]{7,}" title="Only accept alpha characters, hyphens, and spaces with a minimum of seven characters"></label>
+                <label for="email">Correo Electronico*<input type="email" name="email" id="email" autocomplete="email" placeholder="someone@gmail.com"  required></label>
+                <label>Número de celular*<input type="tel" id="phone" name="phone" autocomplete="tel" required ></label>
+                <label for="organization">Business/Organization's Name<input type="text" id="organization" name="organization" autocomplete="organization"></label>
+                <div>Membership Level, Select one:</div>
+                <div id="mlevel">  
+                    <div class="membership-option">
+                        <label><input type="radio" name="level" value="np">NP</label><span class="learn-more" id="openButton1">Learn More</span>
+                    </div>
+                    <div class="membership-option">
+                        <label><input type="radio" name="level" value="bronze">Bronze Membership</label><span class="learn-more" id="openButton2">Learn More</span>
+                    </div>
+                    <div class="membership-option">
+                        <label><input type="radio" name="level" value="silver">Silver Membership</label><span class="learn-more" id="openButton3">Learn More</span>
+                    </div>
+                    <div class="membership-option">
+                        <label><input type="radio" name="level" value="gold">Gold Membership</label><span class="learn-more" id="openButton4">Learn More</span>
+                    </div>
+                    <dialog id="mydialog">
+                        <h2></h2>
+                        <p></p>
+                        <span id="closeButton">❌</span>
+                    </dialog>
+                </div>
+               
+                <label for="review">Business/Organization's description</label>
+                <textarea id="review" name="review"></textarea>
+                <input type="hidden" name="timestamp" id="timestamp" value="">
+
+            </fieldset>
+    
+            <input type="submit" value="Join Us">
+    
+        </form>
     </main>
     <footer>
         <p>
