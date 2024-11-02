@@ -24,8 +24,26 @@
             "phonenumber": "969 750 634",
             "websiteurl": "https://www.copefrut.com/",
             "mem_lvl": "Gold",
-            "image": "https://Estefania-2023.github.io/wdd231/project/images/businessimage.webp",
+            "image": "images/actividadesdecertificacion.webp",
             "information": "You can learn Entrepreneurship courses and the great strategies."
-        }     
+        },
+        {
+            "name": "Entrepreneurship courses",
+            "address": "Carr Sullana-Tambogrande KM 43.5, Tambo Grande 20200",
+            "phonenumber": "969 750 634",
+            "websiteurl": "https://www.copefrut.com/",
+            "mem_lvl": "Gold",
+            "image": "images/exportacion.webp",
+            "information": "You can learn Entrepreneurship courses and the great strategies."
+        },
+        {
+            "name": "Entrepreneurship courses",
+            "address": "Carr Sullana-Tambogrande KM 43.5, Tambo Grande 20200",
+            "phonenumber": "969 750 634",
+            "websiteurl": "https://www.copefrut.com/",
+            "mem_lvl": "Gold",
+            "image": "images/etapadefloracion.webp",
+            "information": "You can learn Entrepreneurship courses and the great strategies."
+        }    
     ]
 }
