@@ -38,6 +38,9 @@ h2{
   font-family: var(--heading-font);
   color: var(--secondary-color);
 }
+hr {
+    border: 1px solid var(--accent1-color);
+}
 
 #titledescription {
     display: flex;
