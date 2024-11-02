@@ -8,8 +8,7 @@
     <meta name="description" content="COOPAFRUT of Tambogrande Piura-Perú, here it's the home page.">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="icon" href="images/cfruticon.ico">
-    <script src="scripts/getdates.js" defer></script>
-    <script src="scripts/join.js" defer></script>
+    <script src="scripts/index.js" defer></script>
     <meta property="og:title" content="Coopafrut">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://Estefania-2023.github.io/Coopafrut/images/coopafrutlogo.webp">
@@ -17,74 +16,133 @@
 </head>
 <body>
     <header>
-        <img src="images/coopafrutlogo.webp" alt="profile">
-        <h1>Cooperativa Agraria de Frutas Tropicales del Valle San Lorenzo (COOPAFRUT)</h1>
+        <div id="titledescription">
+            <img src="images/coopafrutlogo.webp" alt="Coopafrut Logo" width="320" height="250">
+          <h1>COOPERATIVA AGRARIA DE FRUTAS TROPICALES DEL VALLE SAN LORENZO</h1>
+        </div>
     </header>
-    <main>
-        <section id="certificate-card" class="card">
-            <h2 class="card-heading">Web and Computer Programming Certificate</h2>
-            <div class="card-content">
-                <button class="not-selected" id="all">All</button>
-                <button class="not-selected" id="cse">CSE</button>
-                <button class="not-selected" id="wdd">WDD</button>
-                <hr>
-                <div id="course-cards">
+      <button id="menu" title="menu"></button>
+        <nav id="animate">
+            <ul class="navigation">
+                <li><a href="index.html" title="Home Page" class="active">Principal</a></li>
+                <li><a href="activities.html" title="Activities">Más Información</a></li>
+                <li><a href="join.html" title="Join">Registrarse</a></li>
+            </ul>
+        </nav>
+    
+    <main class="home-grid">
+        <div class="call-to-action">
+            <picture id="hero-image">
+                <source media="(max-width: 600px)" srcset="images/mangokent.webp">
+                <source media="(min-width: 600px) and (max-width: 1280px)" srcset="images/mangokent.webp">
+                <source media="(min-width: 1280px)" srcset="images/mangokent.webp">
+                <img data-src="images/mangokent.webp" src="images/mangokent.webp" alt="Image of Products" width= "600" height="400">
+            </picture>
+            <h2 class="hero-title">Bienvenidos a COOPAFRUT</h2>
 
-                </div>  
-                <hr>
-                <p id="credits-title">Credits</p>
-                <span id="total-credits"></span>
-                <span id="total-completed"></span>          
+        </div>
+        <div class="events">
+            <h3 class="box-title">¿Quiénes somos?</h3>
+            <p class="box-content">  La
+                Cooperativa Agraria de Frutas Tropicales del Valle
+                San Lorenzo (COOPAFRUT), es una organización formada por 120
+                agricultores y con más de 500 hectáreas de mango
+                instaladas. Tienen como objetivo cultivar frutas de
+                máxima calidad en sus propios terrenos situados en el
+                ecosistema tropical seco del Valle de San Lorenzo en el
+                norte del Perú.        
+            </p>
+
+        </div>
+
+        <div class="weather">
+            <h3 class="box-title">Clima</h3>
+            <div class="box-content">
+                <span id="weather-info"></span>
+                <h4>Tambogrande, Piura, Perú</h4>
+                <p><span id="current-temp">__</span></p>
+                <figure>
+                    <img id="weather-icon" src="#" alt="Weather Icon" width="64" height="64">
+                    <figcaption></figcaption>
+                </figure>
+            </div>  
+        </div>
+
+        <div class="designs">
+            <h3 class="box-title">Más Información</h3>
+            <div class="spotlight-grid">
+                <div id="spotlight-1" class="sub-box"></div>
+                <div id="spotlight-2" class="sub-box"></div>
+                <div id="spotlight-3" class="sub-box"></div>
             </div>
-        </section>
+            
+        </div>
+        <div class="idea">
+            <h3 class="box-title1">NUESTRA IDEA PRINCIPAL</h3>
+            <p class="box-content">  La
+                idea central es obtener frutas 100% naturales,
+                empleando sistemas de recolección semi-artesanales al
+                modo tradicional y con cultivos bajo irrigación
+                controlada, orgánica y certificada que permiten ofrecer
+                una calidad estable en todos sus productos.   
+            </p>
+            <figure class="card-content">
+                <img src="images/sanlorenzo.webp" alt="Represa San Lorenzo, Piura" width="271" height="180" loading="lazy">
+                <figcaption>Represa San Lorenzo, Piura</figcaption>
+            </figure>
+        </div>
+
+        <div class="idea">
+            <h3 class="box-title1">PRINCIPIOS</h3>
+            <p class="box-content1"><b>MISIÓN</b></p>
+            <p class="box-content2">Realizar producciones respetuosas
+                con el medio ambiente y su
+                entorno.</p>
+            <p class="box-content1"><b>VISIÓN</b></p>
+            <p class="box-content2">Ser una empresa exportadora de
+                frutas tropicales de alta calidad a
+                los principales mercados de
+                Europa, Asia y América.</p>
+            <p class="box-content1"><b>VALORES</b></p>
+            <p class="box-content2">-Compromiso con el medio
+                ambiente.</p>
+            <p class="box-content2">-Disciplina y responsabilidad.</p>
+            <p class="box-content2">-Innovación.</p>
+            <p class="box-content2">-Trabajo en equipo.</p>
+            <figure class="card-content">
+                <img src="images/conferencia.webp" alt="Conferencia" width="271" height="180" loading="lazy">
+                <figcaption>Conferencia</figcaption>
+            </figure>
+        </div>
+        <div class="idea">
+            <h3 class="box-title1">NUESTRO PRODUCTO</h3>
+            <p class="box-content1"><b>MANGO</b></p>
+            <p class="box-content1">-Piel más fina y resistente con mayor.</p>
+            <p class="box-content1">-Con menor acuosidad dando mayor
+                concentración de aromas y sabores.</p>
+            <p class="box-content1">-Textura muy suave y agradable al
+                paladar.</p>
+            <p class="box-content1">-Se tienen 500 hectáreas de mango.</p>
+            <figure class="card-content">
+                <img src="images/mangos.webp" alt="Mangos" width="271" height="203" loading="lazy">
+                <figcaption>Mangos</figcaption>
+            </figure>
+        </div>
         
-
-        <form method="get" action="thankyou.html" class="form1">
-            <fieldset>
-                <legend>Cuentanos tu experiencia</legend>
-                <label for="fname">Nombre*<input type="text" name="fname" id="fname" autocomplete="given-name" required></label>
-                <label for="lname">Apellido*<input type="text" name="lname" id="lname" autocomplete="family-name" required></label>
-                <label for="organizationTitle">Organizational Title<input type="text" id="organizationTitle" name="organizationTitle" autocomplete="organization-title" pattern="[a-zA-Z\- ]{7,}" title="Only accept alpha characters, hyphens, and spaces with a minimum of seven characters"></label>
-                <label for="email">Correo Electronico*<input type="email" name="email" id="email" autocomplete="email" placeholder="someone@gmail.com"  required></label>
-                <label>Número de celular*<input type="tel" id="phone" name="phone" autocomplete="tel" required ></label>
-                <label for="organization">Business/Organization's Name<input type="text" id="organization" name="organization" autocomplete="organization"></label>
-                <div>Membership Level, Select one:</div>
-                <div id="mlevel">  
-                    <div class="membership-option">
-                        <label><input type="radio" name="level" value="np">NP</label><span class="learn-more" id="openButton1">Learn More</span>
-                    </div>
-                    <div class="membership-option">
-                        <label><input type="radio" name="level" value="bronze">Bronze Membership</label><span class="learn-more" id="openButton2">Learn More</span>
-                    </div>
-                    <div class="membership-option">
-                        <label><input type="radio" name="level" value="silver">Silver Membership</label><span class="learn-more" id="openButton3">Learn More</span>
-                    </div>
-                    <div class="membership-option">
-                        <label><input type="radio" name="level" value="gold">Gold Membership</label><span class="learn-more" id="openButton4">Learn More</span>
-                    </div>
-                    <dialog id="mydialog">
-                        <h2></h2>
-                        <p></p>
-                        <span id="closeButton">❌</span>
-                    </dialog>
-                </div>
-               
-                <label for="review">Business/Organization's description</label>
-                <textarea id="review" name="review"></textarea>
-                <input type="hidden" name="timestamp" id="timestamp" value="">
-
-            </fieldset>
-    
-            <input type="submit" value="Join Us">
-    
-        </form>
+        <div class="join">
+            <h3 class="box-title">Contactar</h3>
+            <p class="box-content">Para contactarnos contigo, haz clic para llenar el formulario.</p>
+            <button id="join-button" onclick="window.location.href='join.html';">Registrarse</button>
+        </div>
     </main>
     <footer>
-        <p>
-            &copy; <span id="current-year"></span> Estefania Ortiz Ramirez, Peru
-            <img src="images/Flag_of_Peru_(1825–1884).svg.png" alt="Bandera" width="40" height="20">
-        </p>
-        <p id="last-modified"></p>
+        <div>
+            <p><b>COOPERATIVA AGRARIA DE FRUTAS TROPICALES DEL VALLE SAN LORENZO COOPAFRUT</b></p>
+            <p>Dirección: Casa del Agricultor,
+                Cruceta Tambogrande, Piura-Perú</p>    
+            <p>Teléfono: 969646433</p> 
+            <p>Correo: publiservice2007@hotmail.com</p>
+        </div>
     </footer>
 </body>
 </html>

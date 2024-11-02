@@ -1,0 +1,31 @@
+{
+    "activities": [
+        {
+            "name": "Plantación de Mango",
+            "address": "Plantación de Mango",
+            "phonenumber": "962 277 29",
+            "websiteurl": "https://www.copefrut.com/",
+            "mem_lvl": "Silver",
+            "image": "images/plantacionmango.webp",
+            "information": "Plantación de Mango"
+        },
+        {
+            "name": "Planta Procesadora",
+            "address": "Planta Procesadora",
+            "phonenumber": "969 750 634",
+            "websiteurl": "https://www.copefrut.com/",
+            "mem_lvl": "Gold",
+            "image": "images/plantaprocesadora.webp",
+            "information": "Planta Procesadora"
+        },
+        {
+            "name": "Entrepreneurship courses",
+            "address": "Carr Sullana-Tambogrande KM 43.5, Tambo Grande 20200",
+            "phonenumber": "969 750 634",
+            "websiteurl": "https://www.copefrut.com/",
+            "mem_lvl": "Gold",
+            "image": "https://Estefania-2023.github.io/wdd231/project/images/businessimage.webp",
+            "information": "You can learn Entrepreneurship courses and the great strategies."
+        }     
+    ]
+}
