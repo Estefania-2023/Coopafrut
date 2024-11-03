@@ -118,10 +118,9 @@ footer p {
     color: var(--accent2-color);
 }
 h1{font-size: 35px;}
-h2, h3 {font-size: 32px;
-font-family: var(--paragraph-font);}
+h2, h3 {font-size: 32px;}
 h2, h3 {
-    font-family: var(--heading);
+    font-family: var(--heading-font);
     font-weight: 800;
     margin: 0px;
     text-align: center;

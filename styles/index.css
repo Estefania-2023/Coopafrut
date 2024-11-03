@@ -288,6 +288,7 @@ aside{
 
 .hero-title {
     position: absolute;
+    font-family: var(--heading-font);
     width: 50%; height: auto;
     min-width: 250px;
     top: 20px;
