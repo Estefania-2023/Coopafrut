@@ -48,8 +48,6 @@ const displayCompanies = (activities) => {
         
         name.innerHTML = `${companie.name}`;
         address.innerHTML = `${companie.address}`;
-        telf.innerHTML = `${companie.phonenumber}`;
-        website.innerHTML = `<a href="${companie.websiteurl}" target="_blank" title="${companie.name}">${companie.websiteurl}</a>`;
 
         portrait.setAttribute('src', companie.image);
         portrait.setAttribute('alt', companie.name);

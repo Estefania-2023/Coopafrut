@@ -2,48 +2,48 @@
     "activities": [
         {
             "name": "Plantación de Mango",
-            "address": "Plantación de Mango",
+            "address": "Plantaciones de mangos en frutos.",
             "phonenumber": "962 277 29",
             "websiteurl": "https://www.copefrut.com/",
             "mem_lvl": "Silver",
             "image": "images/plantacionmango.webp",
-            "information": "Plantación de Mango"
+            "information": "Plantaciones de mangos en frutos."
         },
         {
             "name": "Planta Procesadora",
-            "address": "Planta Procesadora",
+            "address": "Actividades de maquila en la planta procesadora.",
             "phonenumber": "969 750 634",
             "websiteurl": "https://www.copefrut.com/",
             "mem_lvl": "Gold",
             "image": "images/plantaprocesadora.webp",
-            "information": "Planta Procesadora"
+            "information": "Actividades de maquila en la planta procesadora."
         },
         {
-            "name": "Entrepreneurship courses",
-            "address": "Carr Sullana-Tambogrande KM 43.5, Tambo Grande 20200",
+            "name": "Actividades de Certificación",
+            "address": "Actividades de Certificación en nuestros campos.",
             "phonenumber": "969 750 634",
             "websiteurl": "https://www.copefrut.com/",
             "mem_lvl": "Gold",
             "image": "images/actividadesdecertificacion.webp",
-            "information": "You can learn Entrepreneurship courses and the great strategies."
+            "information": "Actividades de Certificación en nuestros campos."
         },
         {
-            "name": "Entrepreneurship courses",
-            "address": "Carr Sullana-Tambogrande KM 43.5, Tambo Grande 20200",
+            "name": "Exportación de productos",
+            "address": "Exportación de nuestros productos de mayor calidad.",
             "phonenumber": "969 750 634",
             "websiteurl": "https://www.copefrut.com/",
             "mem_lvl": "Gold",
             "image": "images/exportacion.webp",
-            "information": "You can learn Entrepreneurship courses and the great strategies."
+            "information": "Exportación de nuestros productos de mayor calidad."
         },
         {
-            "name": "Entrepreneurship courses",
-            "address": "Carr Sullana-Tambogrande KM 43.5, Tambo Grande 20200",
+            "name": "Etapa de Floración",
+            "address": "Etapa de floración en nuestros campos orgánicos.",
             "phonenumber": "969 750 634",
             "websiteurl": "https://www.copefrut.com/",
             "mem_lvl": "Gold",
             "image": "images/etapadefloracion.webp",
-            "information": "You can learn Entrepreneurship courses and the great strategies."
+            "information": "Etapa de floración en nuestros campos orgánicos."
         }    
     ]
 }

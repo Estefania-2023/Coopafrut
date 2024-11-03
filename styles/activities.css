@@ -172,7 +172,7 @@ p {
 .grid section {
     padding: 0.5rem;
     width: 400px;
-    height: 360px;
+    height: 320px;
     margin: 15px;
     color: var(--accent1-color);
 	text-align: center; 

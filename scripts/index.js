@@ -201,18 +201,18 @@ function displaySpotlights(choice1, choice2, choice3) {
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
     image1.setAttribute('src', choice1.image);
     image1.setAttribute('alt', 'image of ' + choice1.name);
-    image1.setAttribute('width', '200');
-    image1.setAttribute('height', '100');
+    image1.setAttribute('width', '300');
+    image1.setAttribute('height', '200');
 
     image2.setAttribute('src', choice2.image);
     image2.setAttribute('alt', 'image of ' + choice2.name);
-    image2.setAttribute('width', '200');
-    image2.setAttribute('height', '100');
+    image2.setAttribute('width', '300');
+    image2.setAttribute('height', '200');
 
     image3.setAttribute('src', choice3.image);
     image3.setAttribute('alt', 'image of ' + choice3.name);
-    image3.setAttribute('width', '200');
-    image3.setAttribute('height', '100');
+    image3.setAttribute('width', '300');
+    image3.setAttribute('height', '200');
 
     // Add/append the section with the created child elements.
     spotlight1.appendChild(title1);
