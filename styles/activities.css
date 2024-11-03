@@ -188,7 +188,8 @@ p {
 
 .grid p {
     max-width: 100%;
-    font-size: 20px;
+    font-size: 15px;
+    margin: 5px;
 }
 
 .grid section > * {
