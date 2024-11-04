@@ -275,6 +275,9 @@ main {
 .idea p {
   color: var(--accent2-color);
 }
+.idea img{
+    display: flex;
+}
 /*++++++++++++++++++++++++++++++*/
 aside{
     width: auto;
@@ -455,6 +458,11 @@ aside{
     font-size: 25px;
     display: flex;
   }
+  .idea img{
+    display: flex;
+    width: 95%;
+    height: 95%;
+}
 }
 
 /* Large Display Properties (~ 520px+ wide) */

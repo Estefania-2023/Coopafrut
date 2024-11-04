@@ -119,11 +119,21 @@ footer p {
 }
 h1{font-size: 35px;}
 h2, h3 {font-size: 32px;}
-h2, h3 {
+h2 {
     font-family: var(--heading-font);
     font-weight: 800;
     margin: 0px;
     text-align: center;
+    color: var(--accent2-color);
+}
+h3 {
+    font-family: var(--heading-font);
+    font-weight: 800;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 .menu {
 	margin: 1rem auto;
@@ -186,9 +196,10 @@ p {
 }
 
 .grid p {
-    max-width: 100%;
     font-size: 15px;
-    margin: 5px;
+    margin: 15px;
+    display: flex;
+    text-align: center;
 }
 
 .grid section > * {
@@ -225,8 +236,10 @@ section a {
 }
 
 .grid img {
-	height: 250px;
-	width: auto; 
+	height: 80%;
+	width: 80%;
+    display: flex; 
+    margin:0 auto;
 }
 /* Form */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
@@ -336,6 +349,20 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     text-align: center;
 }
 
+.card-content img{
+    width: 80%;
+    height: 80%;
+    display:flex;
+}
+
+figcaption {
+    font-family: var(--paragraph);
+    font-weight: 400;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin: 1rem;
+}
 
 
 .membership-option {
@@ -381,6 +408,13 @@ dialog span {
     border: 1px solid rgba(0, 0, 0, 0.1);
   }
 
+  .idea {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    padding: 15px;
+  }
+
 @media only screen and (min-width: 54rem) {
 
     main {
@@ -415,6 +449,7 @@ dialog span {
         grid-template-rows: 1fr;
         margin-right: 150px;
     }
+    
 }
 @media screen and (max-width: 650px) {
     header img {
@@ -426,6 +461,21 @@ dialog span {
     h1{
       font-size: 25px;
       display: flex;
+    }
+    .idea {
+        display: grid;
+        
+    }
+    .card-content img{
+        width: 100%;
+        height: 100%;
+        display:flex;
+    }
+    .grid img{
+        display: flex;
+    }
+    footer{
+        margin-top: 5rem;
     }
   }
   
