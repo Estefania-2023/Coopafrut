@@ -413,7 +413,17 @@ dialog span {
     flex-direction: row;
     margin: 1rem;
     padding: 15px;
+    grid-gap: 5rem;
   }
+  .idea img{
+    margin: 15px;
+}
+
+.idea p{
+    margin: 15px;
+    height:30px;
+    display: block;
+}
 
 @media only screen and (min-width: 54rem) {
 
@@ -465,6 +475,9 @@ dialog span {
     .idea {
         display: grid;
         
+    }
+    .idea img{
+        margin: 15px;
     }
     .card-content img{
         width: 100%;
